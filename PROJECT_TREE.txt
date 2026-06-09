@@ -1,0 +1,99 @@
+advanced-chat-tabs/
+├── gradle/
+│   └── wrapper/
+│       └── gradle-wrapper.properties
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── advancedchattabs/
+│   │   │               ├── chat/
+│   │   │               │   ├── ChatHistory.java
+│   │   │               │   ├── ChatMessage.java
+│   │   │               │   ├── ChatMessageRouter.java
+│   │   │               │   ├── ChatMessageType.java
+│   │   │               │   ├── MessageClassifier.java
+│   │   │               │   ├── MessageMergeManager.java
+│   │   │               │   ├── RoutePlan.java
+│   │   │               │   ├── TrustStatus.java
+│   │   │               │   └── VanillaChatPayload.java
+│   │   │               ├── command/
+│   │   │               │   └── ClientCommands.java
+│   │   │               ├── config/
+│   │   │               │   ├── ConfigManager.java
+│   │   │               │   ├── ConfigMigration.java
+│   │   │               │   ├── GlobalConfig.java
+│   │   │               │   ├── HistoryStore.java
+│   │   │               │   ├── ServerConfig.java
+│   │   │               │   └── ServersConfig.java
+│   │   │               ├── filter/
+│   │   │               │   ├── ChatFilter.java
+│   │   │               │   ├── FilterAction.java
+│   │   │               │   ├── FilterActionType.java
+│   │   │               │   ├── FilterEngine.java
+│   │   │               │   ├── FilterScope.java
+│   │   │               │   ├── FilterTestResult.java
+│   │   │               │   ├── LogicalMode.java
+│   │   │               │   └── MatchMode.java
+│   │   │               ├── input/
+│   │   │               │   └── KeyBindingManager.java
+│   │   │               ├── mixin/
+│   │   │               │   ├── ChatHudMixin.java
+│   │   │               │   ├── ChatScreenMixin.java
+│   │   │               │   └── InGameHudMixin.java
+│   │   │               ├── render/
+│   │   │               │   ├── ChatOverlayRenderer.java
+│   │   │               │   └── TabBarRenderer.java
+│   │   │               ├── screen/
+│   │   │               │   ├── AdvancedChatTabsScreen.java
+│   │   │               │   ├── ChatTabSettingsScreen.java
+│   │   │               │   ├── FilterActionEditorScreen.java
+│   │   │               │   ├── FilterEditorScreen.java
+│   │   │               │   ├── FilterListScreen.java
+│   │   │               │   ├── RenameTabScreen.java
+│   │   │               │   ├── TabContextMenuScreen.java
+│   │   │               │   ├── TabListScreen.java
+│   │   │               │   └── WindowEditorScreen.java
+│   │   │               ├── tab/
+│   │   │               │   ├── ChatTab.java
+│   │   │               │   ├── ChatTabManager.java
+│   │   │               │   └── TabSettings.java
+│   │   │               ├── util/
+│   │   │               │   ├── ColorUtil.java
+│   │   │               │   └── ServerIdentity.java
+│   │   │               ├── window/
+│   │   │               │   ├── ChatWindow.java
+│   │   │               │   ├── ChatWindowManager.java
+│   │   │               │   └── WindowsConfig.java
+│   │   │               └── AdvancedChatTabsClient.java
+│   │   └── resources/
+│   │       ├── assets/
+│   │       │   └── advanced_chat_tabs/
+│   │       │       └── lang/
+│   │       │           ├── en_us.json
+│   │       │           └── ru_ru.json
+│   │       ├── advanced_chat_tabs.mixins.json
+│   │       └── fabric.mod.json
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── example/
+│                   └── advancedchattabs/
+│                       ├── chat/
+│                       │   ├── ChatMessageRouterTest.java
+│                       │   └── MessageMergeManagerTest.java
+│                       ├── config/
+│                       │   └── ConfigSerializationTest.java
+│                       └── filter/
+│                           └── FilterEngineTest.java
+├── .gitignore
+├── build.gradle
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── LICENSE
+├── PROJECT_TREE.txt
+├── README.md
+├── settings.gradle
+└── VALIDATION.md

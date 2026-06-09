@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "advanced_chat_tabs",
+  "version": "${version}",
+  "name": "Advanced Chat Tabs",
+  "description": "Client-side chat tabs, filters, floating windows and per-server profiles.",
+  "authors": [
+    "Advanced Chat Tabs contributors"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.advancedchattabs.AdvancedChatTabsClient"
+    ]
+  },
+  "mixins": [
+    "advanced_chat_tabs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.4+1.21.11"
+  }
+}
